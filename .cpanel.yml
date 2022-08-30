@@ -3,4 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home1/boundlr9/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp /css -a *  $DEPLOYPATH
+
