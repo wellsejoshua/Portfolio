@@ -172,6 +172,7 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 1;
 }
 
 .element-cover-bg:before {
